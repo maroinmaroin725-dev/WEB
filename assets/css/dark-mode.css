@@ -1,0 +1,23 @@
+/* Dark Mode Overrides */
+body.light-mode {
+    --dark: #ffffff;
+    --darker: #f9fafb;
+    --text: #1f2937;
+    --text-secondary: #6b7280;
+    --border: #e5e7eb;
+}
+
+body.light-mode .card {
+    background: linear-gradient(135deg, rgba(249, 250, 251, 0.9) 0%, rgba(243, 244, 246, 0.9) 100%);
+    border-color: #e5e7eb;
+}
+
+body.light-mode .form-control {
+    background: rgba(243, 244, 246, 0.9);
+    border-color: #e5e7eb;
+    color: #1f2937;
+}
+
+body.light-mode .navbar {
+    background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+}
